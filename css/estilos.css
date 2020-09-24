@@ -1,0 +1,477 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.imgLogo{
+    width: 90px;
+    height: 90px;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ul{
+    display: flex;
+    height: inherit;
+}
+
+.header ul li{
+    height: inherit;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation{
+    margin-bottom: 0px;
+}
+
+.hero{
+    height: 300px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    /* flex-shrink: 0; */
+}
+
+.titulo-principal strong {
+    color: #026fff;
+}
+
+.hero-img{
+    width: 425px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio{
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.titulo-seccion-proyectos{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.project{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif; 
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.project-course{
+    margin: 10px 0;
+}
+
+.project-date{
+    margin: 10px 0;
+}
+
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.project-details{
+    width: 50%;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+.project-imageContainer{
+    width: 40%;
+}
+
+.project-image{
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.project-imageContainer img{
+    max-width: 100%;
+}
+
+.titulo-principal-experiencia{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.events{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.event img{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details{
+    margin: 20px 40px;
+    margin-top: -45px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-url{
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact{
+   background-color: #056fff;
+   color: white;
+   height: 200px;
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   padding: 0 20px;
+   flex-wrap: wrap;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.instagram{
+    background-image: url(../img/instagram.svg);
+}
+
+.social-link.twitter{
+    background-image: url(../img/twitter.svg);
+}
+
+.social-link.github{
+    background-image: url(../img/github.svg);
+}
+
+.social-link.facebook{
+    background-image: url(../img/facebook.svg);
+}
+
+.form-email input{
+    border-color: grey;
+    padding: 10px 20px 10px 25px;
+    background-image: url(../img/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+.form-email h3{
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    height: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+}
+
+.botonMobiles{
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .event-details{
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 887px){
+
+    .project-details{
+        font-size: 16px;
+    }
+
+    .project-title{
+        font-size: 1.5em;
+    }
+
+    .project-course{
+        font-size: 1em;
+    }
+
+    .project-date{
+        font-size: .9em;
+    }
+
+    .project-url{
+        font-size: .9em;
+    }
+
+    .project-description{
+        font-size: 1em;
+    }
+
+    .event{
+        width: auto;
+        flex-shrink: 1;
+    }
+
+    .event img{
+        width: 100%;
+    }
+
+    .event-details{
+        padding: .9em;
+    }
+
+    .hero{
+        height: 300px;
+        background-image: url(../img/muyPinta.jpeg);
+        background-size: 480px 300px;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .titulo-principal{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .header{
+        display: block;
+        height: auto;
+    }   
+
+    .header ul{
+        display: block;
+    }
+
+    .header ul li{
+        height: 50px;
+    }
+
+    .header a{
+        justify-content: center;
+    }
+
+    .header .logo{
+        text-align: center;
+    }
+
+    .project{
+        display: block;
+    }
+
+    .project-imageContainer{
+        width: auto;
+    }
+
+    .project-details{
+        width: auto;
+        font-size: 16px;
+    }
+
+    .project-title{
+        font-size: 1.5em;
+    }
+
+    .project-course{
+        font-size: 1em;
+    }
+
+    .project-date{
+        font-size: .9em;
+    }
+
+    .project-url{
+        font-size: .9em;
+    }
+
+    .project-description{
+        font-size: .8em;
+    }
+
+    .event-description{
+        font-size: .8em;
+    }
+
+    .contact{
+        height: auto;
+        padding: 1em 0;
+        display: block;
+        text-align: center;
+    }
+
+    .form-email button{
+        margin: 1.2em auto;
+    }
+
+    .botonMobiles{
+        display: initial;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        margin-right: 10px;
+        margin-bottom: 100px;
+        color: white;
+        font-size: 2em;
+    }
+
+    .hero{
+        height: 300px;
+        background-image: url(../img/muyPinta.jpeg);
+        background-size: 480px 300px;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .titulo-principal{
+        font-size: 2em;
+        text-shadow: 1px 2px 2px #777;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .titulo-principal{
+        font-size: 1.5em;
+        text-shadow: 1px 2px 2px #777;
+    }
+}
+
+
+
+
+

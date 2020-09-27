@@ -287,7 +287,7 @@ figure{
     background: black;
     width: 50px;
     height: 50px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     display: none;
 }
 
@@ -306,7 +306,7 @@ figure{
     }
 }
 
-@media screen and (max-width: 887px){
+@media screen and (max-width: 887px) and (min-width: 481px){
 
     .project-details{
         font-size: 16px;
@@ -359,6 +359,17 @@ figure{
 
     .titulo-principal{
         font-size: 2em;
+    }
+
+    .header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .event-details{
+        z-index: 2;
     }
 }
 
@@ -461,6 +472,19 @@ figure{
     .titulo-principal{
         font-size: 2em;
         text-shadow: 1px 2px 2px #777;
+    }
+
+    .event{
+        width: auto;
+        flex-shrink: 1;
+    }
+
+    .event img{
+        width: 100%;
+    }
+
+    .event-details{
+        padding: .9em;
     }
 }
 
